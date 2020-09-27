@@ -1,0 +1,12 @@
+
+I find it is hard to combine the whole codes to one function and some error occurs
+I think is it OK to insert two function into your codes?
+This way is stable more I assume?
+
+Four maps are inputs and the line.npy contains all the information about the boundary line
+In the boundary line map the lines are 0 and space are 1
+
+What's more, I mute the uncertainty influence on the information searching method
+So for now, only infomap affects the directions for the agents in the decomposed region
+
+P.S: The gif can be close in Grad_test_64x64 line84, change Ture to False
